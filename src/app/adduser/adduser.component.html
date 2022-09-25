@@ -1,0 +1,15 @@
+<p>adduser works!</p>
+
+<div class="container">
+
+    <form [formGroup]="register" (ngSubmit)="collection()">
+
+        Name: <input type="text"  formControlName="name"/>
+                 
+        Password: <input type="text"  formControlName="password"/>
+        
+        <button type="submit" class="btn btn-primary">Register</button>
+        <!--<input type="submit" value="adduser">-->
+    </form>
+
+</div>
