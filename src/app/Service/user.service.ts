@@ -24,7 +24,7 @@ export class UserSrrvice {
      debugger;
      console.log(data.name);
      console.log(data.password);
-     console.log(this.url);
+     //console.log(this.url);
     return this.http.post(this.url,data)
   }
 
